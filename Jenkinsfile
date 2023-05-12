@@ -43,11 +43,4 @@ finding flaws by using a security scanning programme.
             }
         }
     }
-
-    post {
-        always {
-            subject: "Status",
-            body: "Build log"
-        }
-    }
 }
