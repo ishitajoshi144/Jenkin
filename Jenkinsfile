@@ -28,7 +28,7 @@ pipeline {
                 echo "finding flaws by using a security scanning programme."
             }
         }
-finding flaws by using a security scanning programme.
+
         stage('Integration Tests on Staging') {
             steps {
                 echo "The staging environment is being put through integrity tests."
