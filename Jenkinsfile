@@ -46,7 +46,6 @@ finding flaws by using a security scanning programme.
 
     post {
         always {
-            mail to: "ishitajoshi144@gmail.com",
             subject: "Status",
             body: "Build log"
         }
